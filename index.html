@@ -6,42 +6,84 @@
     <title>Card Monumen</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="./style.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-
-    <article>
-        <div class="assets">
-            <img src="https://assets.codepen.io/605876/osaka-sky.jpeg" alt="" />
-            <h3>Bondowoso</h3>
-            <img src="./assets/monumen.png" alt="" />
-        </div>
-        <div class="blur">
-            <div>
-                <div class="layer" style="--index:1;"></div>
-                <div class="layer" style="--index:2;"></div>
-                <div class="layer" style="--index:3;"></div>
-                <div class="layer" style="--index:4;"></div>
-                <div class="layer" style="--index:5;"></div>
+    <div class="container mt-5">
+        <article>
+            <div class="assets">
+                <img src="https://assets.codepen.io/605876/osaka-sky.jpeg" alt="" />
+                <h3>Bondowoso</h3>
+                <img src="./assets/monumen.png" alt="" />
             </div>
-        </div>
-        <div class="content">
-            <p>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                    <path
-                        d="M15.75 8.25a.75.75 0 0 1 .75.75c0 1.12-.492 2.126-1.27 2.812a.75.75 0 1 1-.992-1.124A2.243 2.243 0 0 0 15 9a.75.75 0 0 1 .75-.75Z" />
-                    <path fill-rule="evenodd"
-                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM4.575 15.6a8.25 8.25 0 0 0 9.348 4.425 1.966 1.966 0 0 0-1.84-1.275.983.983 0 0 1-.97-.822l-.073-.437c-.094-.565.25-1.11.8-1.267l.99-.282c.427-.123.783-.418.982-.816l.036-.073a1.453 1.453 0 0 1 2.328-.377L16.5 15h.628a2.25 2.25 0 0 1 1.983 1.186 8.25 8.25 0 0 0-6.345-12.4c.044.262.18.503.389.676l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 0 1-1.161.886l-.143.048a1.107 1.107 0 0 0-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 0 1-1.652.928l-.679-.906a1.125 1.125 0 0 0-1.906.172L4.575 15.6Z"
-                        clip-rule="evenodd" />
-                </svg>
-                <span>Monumen Gerbong Maut</span>
-            </p>
-            <p>Bondowoso, Jawa Timur</p>
-        </div>
-    </article>
-    <script type="module" src="./script.js"></script>
+            <div class="blur">
+                <div>
+                    <div class="layer" style="--index:1;"></div>
+                    <div class="layer" style="--index:2;"></div>
+                    <div class="layer" style="--index:3;"></div>
+                    <div class="layer" style="--index:4;"></div>
+                    <div class="layer" style="--index:5;"></div>
+                </div>
+            </div>
+            <div class="content">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path
+                            d="M15.75 8.25a.75.75 0 0 1 .75.75c0 1.12-.492 2.126-1.27 2.812a.75.75 0 1 1-.992-1.124A2.243 2.243 0 0 0 15 9a.75.75 0 0 1 .75-.75Z" />
+                        <path fill-rule="evenodd"
+                            d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM4.575 15.6a8.25 8.25 0 0 0 9.348 4.425 1.966 1.966 0 0 0-1.84-1.275.983.983 0 0 1-.97-.822l-.073-.437c-.094-.565.25-1.11.8-1.267l.99-.282c.427-.123.783-.418.982-.816l.036-.073a1.453 1.453 0 0 1 2.328-.377L16.5 15h.628a2.25 2.25 0 0 1 1.983 1.186 8.25 8.25 0 0 0-6.345-12.4c.044.262.18.503.389.676l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 0 1-1.161.886l-.143.048a1.107 1.107 0 0 0-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 0 1-1.652.928l-.679-.906a1.125 1.125 0 0 0-1.906.172L4.575 15.6Z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    <span class="fw-semibold">Monumen Gerbong Maut</span>
+                </p>
+                <p class="fw-semibold">Bondowoso, Jawa Timur</p>
+            </div>
+        </article>
+        <section class="py-5">
+            <div class="container">
+                <div class="text-center">
+                    <span class="text-muted">Short Story</span>
+                    <h2 class="display-5 fw-bold mb-3">Apa Itu Gerbong Maut?</h2>
+                </div>
+                <div class="row gx-5">
+                    <div class="col-md-6">
+                        <div class="text-center text-md-start">
+                            <p>Peristiwa Gerbong Maut yang dikenal juga dengan sebutan kereta kematian Bondowoso adalah peristiwa sejarah yang terjadi pada tanggal 23 November 1947 di Bondowoso , Indonesia pada masa pendudukan Belanda.</p>
+                            <p>Di tengah perang gerilya antara masyarakat Bondowoso dengan pasukan kolonial Belanda, 100 orang ditangkap karena dicurigai sebagai revolusioner. Para pria yang dimasukkan ke dalam 3 gerbong tersebut berangkat dari Stasiun Kereta Api Bondowoso menuju Lapas Kalisosok Surabaya , sekitar 250 kilometer jauhnya karena dugaan kepadatan di Lapas setempat. Mobil yang disegel, terbuat dari kayu dan besi bergelombang, hanya menghasilkan sedikit oksigen dan menimbulkan panas yang ekstrem.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-center text-md-start">
+                            <p>Berdasarkan kesaksian salah satu penyintas, saat kereta berhenti di pinggir jalan sepanjang 16 jam perjalanan, para napi membentur tembok sambil berteriak meminta makanan dan air. Mereka diberitahu bahwa hanya peluru yang tersedia dan tidak ada pasokan apa pun sampai kereta mencapai Surabaya. Namun, ketika kereta mencapai tujuan, hanya 12 orang yang tidak terluka karena kekurangan oksigen dan tekanan panas. Semua pria di mobil pertama masih hidup meskipun beberapa di antaranya sakit parah. Di mobil kedua, delapan orang tewas. Di gerbong terakhir tidak ada seorang pun yang selamat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container">
+                <div class="row gx-4 align-items-center justify-content-between">
+                    <div class="col-md-6 order-2 order-md-1">
+                        <div class="mt-5 mt-0 me-md-3 me-lg-5">
+                            <h2 class="display-5 fw-bold">Monumen</h2>
+                            <p class="lead">Monumen ini terletak di pusat kota Bondowoso Jawa Timur, antara alun-alun (alun-alun pusat kota) dan kantor pemerintahan kabupaten. Monumen ini terdiri dari dua bagian, yaitu gerbong kereta api dan patung seratus tawanan Gerbong Maut. Gerbong kereta tersebut merupakan replika dan gerbong aslinya dipajang di Museum Tentara Brawijaya Malang.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-1 order-md-2">
+                        <div class="row gx-2 gx-lg-3">
+                            <div class="col-6"><img class="img-fluid rounded-3 shadow-lg" style="width: 100%; height: 250px; object-fit: cover;" src="./assets/Monumen-gerbong-maut-bondowoso-31f73.jpg"></div>
+                            <div class="col-6"><img class="img-fluid rounded-3 shadow-lg" style="width: 100%; height: 250px; object-fit: cover;" src="./assets/GerbongMautMalang.jpg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
+
+    <script type="module" src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 
 </html>
