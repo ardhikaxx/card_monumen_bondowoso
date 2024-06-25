@@ -7,6 +7,28 @@
 	box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1A1A1A;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FAFAFA;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ebebeb;
+}
+
 :root {
 	--x: 0;
 	--y: 0;
