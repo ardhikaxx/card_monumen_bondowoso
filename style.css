@@ -17,16 +17,16 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-    background: #1A1A1A;
+    background: #fafafa;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #FAFAFA;
+    background: #000;
     border-radius: 30px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #ebebeb;
+    background: #242424;
 }
 
 :root {
